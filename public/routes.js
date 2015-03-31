@@ -7,7 +7,7 @@ angular.module('prototype', ['ui.router'])
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: 'templates/home.html',
+    templateUrl: 'home/home.html',
     controller: 'homeCtrl'
   });
 
